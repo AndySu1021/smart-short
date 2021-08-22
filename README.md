@@ -21,6 +21,10 @@ sudo vim /etc/hosts
 
 ### 啟動容器
 ```bash
+# 進入 laradock 目錄
+cd laradock
+
+# 啟動容器
 docker-compose up -d workspace nginx redis mysql mysql2
 ```
 
